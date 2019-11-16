@@ -1,0 +1,893 @@
+2019-11-08 10:27:28,298 ERROR 5292 [-/127.0.0.1/-/513ms POST /v1/saveUser] nodejs.ENOENTError: ENOENT: no such file or directory, open 'C:\Users\Administrator\Desktop\Shopping Mall\server\app\public\avatar\1573180047802aa+2deal-+-+++ac5dc4bc60e81abf14ace3663a.png'
+ENOENTError: ENOENT: no such file or directory, open 'C:\Users\Administrator\Desktop\Shopping Mall\server\app\public\avatar\1573180047802aa+2deal-+-+++ac5dc4bc60e81abf14ace3663a.png'
+errno: -4058
+code: "ENOENT"
+syscall: "open"
+path: "C:\\Users\\Administrator\\Desktop\\Shopping Mall\\server\\app\\public\\avatar\\1573180047802aa+2deal-+-+++ac5dc4bc60e81abf14ace3663a.png"
+name: "ENOENTError"
+pid: 5292
+hostname: XTZ-20190626BHE
+
+2019-11-08 20:32:58,309 ERROR 5292 [-/127.0.0.1/-/2611ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ '68cc9d2a78e94655ae096163c04c0537': '' }" at path "cid" for model "ShopList"
+    at new CastError (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at SchemaString.cast (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schema\string.js:553:11)
+    at SchemaString.SchemaType.applySetters (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at SchemaString.SchemaType._castForQuery (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at SchemaString.castForQuery (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schema\string.js:609:15)
+    at SchemaString.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\cast.js:252:34)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\query.js:4576:12)
+    at model.Query.Query._castConditions (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\query.js:1783:10)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\query.js:2719:8)
+    at model.Query._wrappedThunk [as _deleteMany] (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+message: "Cast to string failed for value \"{ '68cc9d2a78e94655ae096163c04c0537': '' }\" at path \"cid\" for model \"ShopList\""
+name: "CastError"
+stringValue: "\"{ '68cc9d2a78e94655ae096163c04c0537': '' }\""
+kind: "string"
+value: {"68cc9d2a78e94655ae096163c04c0537":""}
+path: "cid"
+reason: undefined
+model: undefined
+pid: 5292
+hostname: XTZ-20190626BHE
+
+2019-11-08 20:37:34,546 ERROR 5292 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ '68cc9d2a78e94655ae096163c04c0537': '' }" at path "cid" for model "ShopList"
+    at new CastError (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at SchemaString.cast (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schema\string.js:553:11)
+    at SchemaString.SchemaType.applySetters (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at SchemaString.SchemaType._castForQuery (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at SchemaString.castForQuery (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schema\string.js:609:15)
+    at SchemaString.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\cast.js:252:34)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\query.js:4576:12)
+    at model.Query.Query._castConditions (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\query.js:1783:10)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\query.js:2719:8)
+    at model.Query._wrappedThunk [as _deleteMany] (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+message: "Cast to string failed for value \"{ '68cc9d2a78e94655ae096163c04c0537': '' }\" at path \"cid\" for model \"ShopList\""
+name: "CastError"
+stringValue: "\"{ '68cc9d2a78e94655ae096163c04c0537': '' }\""
+kind: "string"
+value: {"68cc9d2a78e94655ae096163c04c0537":""}
+path: "cid"
+reason: undefined
+model: undefined
+pid: 5292
+hostname: XTZ-20190626BHE
+
+2019-11-08 20:44:27,916 ERROR 5292 [-/127.0.0.1/-/22ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ '5dc4bc60e81abf14ace3663a': '' }" at path "cid" for model "ShopList"
+    at new CastError (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at SchemaString.cast (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schema\string.js:553:11)
+    at SchemaString.SchemaType.applySetters (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at SchemaString.SchemaType._castForQuery (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at SchemaString.castForQuery (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schema\string.js:609:15)
+    at SchemaString.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\cast.js:252:34)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\query.js:4576:12)
+    at model.Query.Query._castConditions (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\query.js:1783:10)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\query.js:2719:8)
+    at model.Query._wrappedThunk [as _deleteMany] (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+message: "Cast to string failed for value \"{ '5dc4bc60e81abf14ace3663a': '' }\" at path \"cid\" for model \"ShopList\""
+name: "CastError"
+stringValue: "\"{ '5dc4bc60e81abf14ace3663a': '' }\""
+kind: "string"
+value: {"5dc4bc60e81abf14ace3663a":""}
+path: "cid"
+reason: undefined
+model: undefined
+pid: 5292
+hostname: XTZ-20190626BHE
+
+2019-11-08 20:45:32,518 ERROR 5292 [-/127.0.0.1/-/18ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ '5dc53888e81abf14ace3663d': '' }" at path "cid" for model "ShopList"
+    at new CastError (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at SchemaString.cast (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schema\string.js:553:11)
+    at SchemaString.SchemaType.applySetters (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at SchemaString.SchemaType._castForQuery (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at SchemaString.castForQuery (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schema\string.js:609:15)
+    at SchemaString.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\cast.js:252:34)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\query.js:4576:12)
+    at model.Query.Query._castConditions (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\query.js:1783:10)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\query.js:2719:8)
+    at model.Query._wrappedThunk [as _deleteMany] (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+message: "Cast to string failed for value \"{ '5dc53888e81abf14ace3663d': '' }\" at path \"cid\" for model \"ShopList\""
+name: "CastError"
+stringValue: "\"{ '5dc53888e81abf14ace3663d': '' }\""
+kind: "string"
+value: {"5dc53888e81abf14ace3663d":""}
+path: "cid"
+reason: undefined
+model: undefined
+pid: 5292
+hostname: XTZ-20190626BHE
+
+2019-11-08 20:47:41,864 ERROR 5292 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ '68cc9d2a78e94655ae096163c04c0537': '' }" at path "cid" for model "ShopList"
+    at new CastError (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at SchemaString.cast (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schema\string.js:553:11)
+    at SchemaString.SchemaType.applySetters (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at SchemaString.SchemaType._castForQuery (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at SchemaString.castForQuery (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schema\string.js:609:15)
+    at SchemaString.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\cast.js:252:34)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\query.js:4576:12)
+    at model.Query.Query._castConditions (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\query.js:1783:10)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\query.js:2719:8)
+    at model.Query._wrappedThunk [as _deleteMany] (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+message: "Cast to string failed for value \"{ '68cc9d2a78e94655ae096163c04c0537': '' }\" at path \"cid\" for model \"ShopList\""
+name: "CastError"
+stringValue: "\"{ '68cc9d2a78e94655ae096163c04c0537': '' }\""
+kind: "string"
+value: {"68cc9d2a78e94655ae096163c04c0537":""}
+path: "cid"
+reason: undefined
+model: undefined
+pid: 5292
+hostname: XTZ-20190626BHE
+
+2019-11-08 20:50:40,515 ERROR 5292 [-/127.0.0.1/-/19ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '68cc9d2a78e94655ae096163c04c0537' }" at path "cid" for model "ShopList"
+    at new CastError (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at SchemaString.cast (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schema\string.js:553:11)
+    at SchemaString.SchemaType.applySetters (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at SchemaString.SchemaType._castForQuery (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at SchemaString.castForQuery (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schema\string.js:609:15)
+    at SchemaString.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\cast.js:252:34)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\query.js:4576:12)
+    at model.Query.Query._castConditions (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\query.js:1783:10)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\query.js:2719:8)
+    at model.Query._wrappedThunk [as _deleteMany] (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+message: "Cast to string failed for value \"{ id: '68cc9d2a78e94655ae096163c04c0537' }\" at path \"cid\" for model \"ShopList\""
+name: "CastError"
+stringValue: "\"{ id: '68cc9d2a78e94655ae096163c04c0537' }\""
+kind: "string"
+value: {"id":"68cc9d2a78e94655ae096163c04c0537"}
+path: "cid"
+reason: undefined
+model: undefined
+pid: 5292
+hostname: XTZ-20190626BHE
+
+2019-11-08 20:51:42,546 ERROR 5292 [-/127.0.0.1/-/12ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '68cc9d2a78e94655ae096163c04c0537' }" at path "cid" for model "ShopList"
+    at new CastError (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at SchemaString.cast (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schema\string.js:553:11)
+    at SchemaString.SchemaType.applySetters (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at SchemaString.SchemaType._castForQuery (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at SchemaString.castForQuery (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schema\string.js:609:15)
+    at SchemaString.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\cast.js:252:34)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\query.js:4576:12)
+    at model.Query.Query._castConditions (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\query.js:1783:10)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\query.js:2719:8)
+    at model.Query._wrappedThunk [as _deleteMany] (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+message: "Cast to string failed for value \"{ id: '68cc9d2a78e94655ae096163c04c0537' }\" at path \"cid\" for model \"ShopList\""
+name: "CastError"
+stringValue: "\"{ id: '68cc9d2a78e94655ae096163c04c0537' }\""
+kind: "string"
+value: {"id":"68cc9d2a78e94655ae096163c04c0537"}
+path: "cid"
+reason: undefined
+model: undefined
+pid: 5292
+hostname: XTZ-20190626BHE
+
+2019-11-08 21:09:15,377 ERROR 5292 [-/127.0.0.1/-/25ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ '68cc9d2a78e94655ae096163c04c0537': '' }" at path "cid" for model "ShopList"
+    at new CastError (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at SchemaString.cast (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schema\string.js:553:11)
+    at SchemaString.SchemaType.applySetters (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at SchemaString.SchemaType._castForQuery (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at SchemaString.castForQuery (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schema\string.js:609:15)
+    at SchemaString.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\cast.js:252:34)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\query.js:4576:12)
+    at model.Query.Query._castConditions (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\query.js:1783:10)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\query.js:2719:8)
+    at model.Query._wrappedThunk [as _deleteMany] (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+message: "Cast to string failed for value \"{ '68cc9d2a78e94655ae096163c04c0537': '' }\" at path \"cid\" for model \"ShopList\""
+name: "CastError"
+stringValue: "\"{ '68cc9d2a78e94655ae096163c04c0537': '' }\""
+kind: "string"
+value: {"68cc9d2a78e94655ae096163c04c0537":""}
+path: "cid"
+reason: undefined
+model: undefined
+pid: 5292
+hostname: XTZ-20190626BHE
+
+2019-11-08 21:11:52,746 ERROR 5292 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '68cc9d2a78e94655ae096163c04c0537' }" at path "cid" for model "ShopList"
+    at new CastError (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at SchemaString.cast (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schema\string.js:553:11)
+    at SchemaString.SchemaType.applySetters (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at SchemaString.SchemaType._castForQuery (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at SchemaString.castForQuery (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schema\string.js:609:15)
+    at SchemaString.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\cast.js:252:34)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\query.js:4576:12)
+    at model.Query.Query._castConditions (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\query.js:1783:10)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\query.js:2719:8)
+    at model.Query._wrappedThunk [as _deleteMany] (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+message: "Cast to string failed for value \"{ id: '68cc9d2a78e94655ae096163c04c0537' }\" at path \"cid\" for model \"ShopList\""
+name: "CastError"
+stringValue: "\"{ id: '68cc9d2a78e94655ae096163c04c0537' }\""
+kind: "string"
+value: {"id":"68cc9d2a78e94655ae096163c04c0537"}
+path: "cid"
+reason: undefined
+model: undefined
+pid: 5292
+hostname: XTZ-20190626BHE
+
+2019-11-08 21:24:08,581 ERROR 5292 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ '68cc9d2a78e94655ae096163c04c0537': '' }" at path "cid" for model "ShopList"
+    at new CastError (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at SchemaString.cast (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schema\string.js:553:11)
+    at SchemaString.SchemaType.applySetters (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at SchemaString.SchemaType._castForQuery (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at SchemaString.castForQuery (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schema\string.js:609:15)
+    at SchemaString.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\cast.js:252:34)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\query.js:4576:12)
+    at model.Query.Query._castConditions (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\query.js:1783:10)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\query.js:2719:8)
+    at model.Query._wrappedThunk [as _deleteMany] (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+message: "Cast to string failed for value \"{ '68cc9d2a78e94655ae096163c04c0537': '' }\" at path \"cid\" for model \"ShopList\""
+name: "CastError"
+stringValue: "\"{ '68cc9d2a78e94655ae096163c04c0537': '' }\""
+kind: "string"
+value: {"68cc9d2a78e94655ae096163c04c0537":""}
+path: "cid"
+reason: undefined
+model: undefined
+pid: 5292
+hostname: XTZ-20190626BHE
+
+2019-11-08 21:24:24,363 ERROR 5292 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ '68cc9d2a78e94655ae096163c04c0537': '' }" at path "cid" for model "ShopList"
+    at new CastError (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at SchemaString.cast (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schema\string.js:553:11)
+    at SchemaString.SchemaType.applySetters (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at SchemaString.SchemaType._castForQuery (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at SchemaString.castForQuery (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schema\string.js:609:15)
+    at SchemaString.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\cast.js:252:34)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\query.js:4576:12)
+    at model.Query.Query._castConditions (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\query.js:1783:10)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\query.js:2719:8)
+    at model.Query._wrappedThunk [as _deleteMany] (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+message: "Cast to string failed for value \"{ '68cc9d2a78e94655ae096163c04c0537': '' }\" at path \"cid\" for model \"ShopList\""
+name: "CastError"
+stringValue: "\"{ '68cc9d2a78e94655ae096163c04c0537': '' }\""
+kind: "string"
+value: {"68cc9d2a78e94655ae096163c04c0537":""}
+path: "cid"
+reason: undefined
+model: undefined
+pid: 5292
+hostname: XTZ-20190626BHE
+
+2019-11-08 21:45:57,982 ERROR 5292 [egg-mongoose] mongodb://127.0.0.1/shoppingMall disconnected
+2019-11-09 08:37:33,484 ERROR 1244 [-/127.0.0.1/-/12ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ '09d8fabb37ba488aa54f7baf48a33755': '' }" at path "cid" for model "ShopList"
+    at new CastError (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at SchemaString.cast (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schema\string.js:553:11)
+    at SchemaString.SchemaType.applySetters (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at SchemaString.SchemaType._castForQuery (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at SchemaString.castForQuery (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schema\string.js:609:15)
+    at SchemaString.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\cast.js:252:34)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\query.js:4576:12)
+    at model.Query.Query._castConditions (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\query.js:1783:10)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\query.js:2719:8)
+    at model.Query._wrappedThunk [as _deleteMany] (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+message: "Cast to string failed for value \"{ '09d8fabb37ba488aa54f7baf48a33755': '' }\" at path \"cid\" for model \"ShopList\""
+name: "CastError"
+stringValue: "\"{ '09d8fabb37ba488aa54f7baf48a33755': '' }\""
+kind: "string"
+value: {"09d8fabb37ba488aa54f7baf48a33755":""}
+path: "cid"
+reason: undefined
+model: undefined
+pid: 1244
+hostname: XTZ-20190626BHE
+
+2019-11-09 16:38:37,804 ERROR 1244 [-/127.0.0.1/-/370ms POST /v1/address] nodejs.MongoError: E11000 duplicate key error collection: shoppingMall.address index: _id_ dup key: { : ObjectId('5dc672ea1b958604dc5c66a6') }
+    at Function.create (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongodb-core\lib\error.js:43:12)
+    at toError (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongodb\lib\utils.js:149:22)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongodb\lib\operations\collection_ops.js:859:39
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongodb-core\lib\connection\pool.js:397:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+driver: true
+name: "MongoError"
+index: 0
+code: 11000
+errmsg: "E11000 duplicate key error collection: shoppingMall.address index: _id_ dup key: { : ObjectId('5dc672ea1b958604dc5c66a6') }"
+pid: 1244
+hostname: XTZ-20190626BHE
+
+2019-11-09 16:38:46,315 ERROR 1244 [-/127.0.0.1/-/10ms POST /v1/address] nodejs.MongoError: E11000 duplicate key error collection: shoppingMall.address index: _id_ dup key: { : ObjectId('5dc672ea1b958604dc5c66a6') }
+    at Function.create (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongodb-core\lib\error.js:43:12)
+    at toError (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongodb\lib\utils.js:149:22)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongodb\lib\operations\collection_ops.js:859:39
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongodb-core\lib\connection\pool.js:397:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+driver: true
+name: "MongoError"
+index: 0
+code: 11000
+errmsg: "E11000 duplicate key error collection: shoppingMall.address index: _id_ dup key: { : ObjectId('5dc672ea1b958604dc5c66a6') }"
+pid: 1244
+hostname: XTZ-20190626BHE
+
+2019-11-09 16:48:20,182 ERROR 1244 [-/127.0.0.1/-/11ms POST /v1/address] nodejs.MongoError: E11000 duplicate key error collection: shoppingMall.address index: _id_ dup key: { : ObjectId('5dc672ea1b958604dc5c66a6') }
+    at Function.create (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongodb-core\lib\error.js:43:12)
+    at toError (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongodb\lib\utils.js:149:22)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongodb\lib\operations\collection_ops.js:859:39
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\mongodb-core\lib\connection\pool.js:397:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+driver: true
+name: "MongoError"
+index: 0
+code: 11000
+errmsg: "E11000 duplicate key error collection: shoppingMall.address index: _id_ dup key: { : ObjectId('5dc672ea1b958604dc5c66a6') }"
+pid: 1244
+hostname: XTZ-20190626BHE
+
+2019-11-11 11:53:18,783 ERROR 4308 [-/127.0.0.1/-/161ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\Administrator\Desktop\Shopping Mall\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Administrator\Desktop\Shopping Mall\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 4308
+hostname: XTZ-20190626BHE
+
+2019-11-12 11:49:48,896 ERROR 4256 [-/127.0.0.1/-/159ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (C:\Users\Administrator\Desktop\Shopping Mall\server\app\controller\api\user.js:453:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 4256
+hostname: XTZ-20190626BHE
+
+2019-11-12 11:50:11,440 ERROR 4256 [-/127.0.0.1/-/10ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (C:\Users\Administrator\Desktop\Shopping Mall\server\app\controller\api\user.js:453:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 4256
+hostname: XTZ-20190626BHE
+
+2019-11-12 11:58:06,883 ERROR 4256 [-/127.0.0.1/-/1ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (C:\Users\Administrator\Desktop\Shopping Mall\server\app\controller\api\user.js:453:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 4256
+hostname: XTZ-20190626BHE
+
+2019-11-12 11:59:22,940 ERROR 4256 [-/127.0.0.1/-/1ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (C:\Users\Administrator\Desktop\Shopping Mall\server\app\controller\api\user.js:453:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 4256
+hostname: XTZ-20190626BHE
+
+2019-11-12 11:59:43,771 ERROR 4256 [-/127.0.0.1/-/0ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (C:\Users\Administrator\Desktop\Shopping Mall\server\app\controller\api\user.js:453:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 4256
+hostname: XTZ-20190626BHE
+
+2019-11-12 11:59:51,071 ERROR 4256 [-/127.0.0.1/-/0ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (C:\Users\Administrator\Desktop\Shopping Mall\server\app\controller\api\user.js:453:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 4256
+hostname: XTZ-20190626BHE
+
+2019-11-12 12:01:08,549 ERROR 4256 [-/127.0.0.1/-/2ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (C:\Users\Administrator\Desktop\Shopping Mall\server\app\controller\api\user.js:453:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 4256
+hostname: XTZ-20190626BHE
+
+2019-11-12 13:32:37,536 ERROR 4256 [-/127.0.0.1/-/0ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (C:\Users\Administrator\Desktop\Shopping Mall\server\app\controller\api\user.js:453:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 4256
+hostname: XTZ-20190626BHE
+
+2019-11-12 13:36:10,676 ERROR 4256 [-/127.0.0.1/-/1ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (C:\Users\Administrator\Desktop\Shopping Mall\server\app\controller\api\user.js:453:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 4256
+hostname: XTZ-20190626BHE
+
+2019-11-12 13:40:02,684 ERROR 4256 [-/127.0.0.1/-/1ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (C:\Users\Administrator\Desktop\Shopping Mall\server\app\controller\api\user.js:453:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 4256
+hostname: XTZ-20190626BHE
+
+2019-11-12 13:41:00,642 ERROR 4256 [-/127.0.0.1/-/1ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (C:\Users\Administrator\Desktop\Shopping Mall\server\app\controller\api\user.js:453:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 4256
+hostname: XTZ-20190626BHE
+
+2019-11-12 13:42:04,211 ERROR 4256 [-/127.0.0.1/-/1ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (C:\Users\Administrator\Desktop\Shopping Mall\server\app\controller\api\user.js:453:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 4256
+hostname: XTZ-20190626BHE
+
+2019-11-12 13:42:40,358 ERROR 4256 [-/127.0.0.1/-/1ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (C:\Users\Administrator\Desktop\Shopping Mall\server\app\controller\api\user.js:453:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 4256
+hostname: XTZ-20190626BHE
+
+2019-11-12 13:45:02,406 ERROR 4256 [-/127.0.0.1/-/2ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (C:\Users\Administrator\Desktop\Shopping Mall\server\app\controller\api\user.js:453:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 4256
+hostname: XTZ-20190626BHE
+
+2019-11-12 13:46:28,136 ERROR 4256 [-/127.0.0.1/-/1ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (C:\Users\Administrator\Desktop\Shopping Mall\server\app\controller\api\user.js:453:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 4256
+hostname: XTZ-20190626BHE
+
+2019-11-12 13:46:58,881 ERROR 4256 [-/127.0.0.1/-/1ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (C:\Users\Administrator\Desktop\Shopping Mall\server\app\controller\api\user.js:453:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 4256
+hostname: XTZ-20190626BHE
+
+2019-11-12 13:47:05,618 ERROR 4256 [-/127.0.0.1/-/1ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (C:\Users\Administrator\Desktop\Shopping Mall\server\app\controller\api\user.js:453:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 4256
+hostname: XTZ-20190626BHE
+
+2019-11-12 13:48:01,948 ERROR 4256 [-/127.0.0.1/-/0ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (C:\Users\Administrator\Desktop\Shopping Mall\server\app\controller\api\user.js:453:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 4256
+hostname: XTZ-20190626BHE
+
+2019-11-12 13:49:39,021 ERROR 4256 [-/127.0.0.1/-/2ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (C:\Users\Administrator\Desktop\Shopping Mall\server\app\controller\api\user.js:453:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 4256
+hostname: XTZ-20190626BHE
+
+2019-11-12 13:52:41,010 ERROR 4256 [-/127.0.0.1/-/1ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (C:\Users\Administrator\Desktop\Shopping Mall\server\app\controller\api\user.js:453:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 4256
+hostname: XTZ-20190626BHE
+
+2019-11-12 13:52:46,203 ERROR 4256 [-/127.0.0.1/-/1ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (C:\Users\Administrator\Desktop\Shopping Mall\server\app\controller\api\user.js:453:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 4256
+hostname: XTZ-20190626BHE
+
+2019-11-12 13:55:27,784 ERROR 4256 [-/127.0.0.1/-/2ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (C:\Users\Administrator\Desktop\Shopping Mall\server\app\controller\api\user.js:453:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\Shopping Mall\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 4256
+hostname: XTZ-20190626BHE
+
+2019-11-12 21:07:00,768 ERROR 4256 [-/127.0.0.1/-/215ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\Administrator\Desktop\Shopping Mall\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Administrator\Desktop\Shopping Mall\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 4256
+hostname: XTZ-20190626BHE
+
+2019-11-12 21:12:19,045 ERROR 4256 [-/127.0.0.1/-/21ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (C:\Users\Administrator\Desktop\Shopping Mall\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Administrator\Desktop\Shopping Mall\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 4256
+hostname: XTZ-20190626BHE
+
+2019-11-13 21:10:09,131 ERROR 13356 [egg-mongoose] mongodb://127.0.0.1/shoppingMall disconnected
+2019-11-14 19:25:58,530 ERROR 4192 [egg-mongoose] mongodb://127.0.0.1/shoppingMall disconnected
+2019-11-15 16:45:02,470 ERROR 4900 [-/127.0.0.1/-/36ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\Shopping Mall\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\Administrator\Desktop\Shopping Mall\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\Shopping Mall\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 4900
+hostname: XTZ-20190626BHE
+
